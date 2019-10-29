@@ -21,3 +21,8 @@ Route::get('siswa','SiswaController@index');
 Route::post('siswa','SiswaController@create');
 Route::put('siswa/{id}','SiswaController@update');
 Route::delete('siswa/{id}','SiswaController@delete');
+
+Route::get('movie','MovieController@index');
+Route::post('movie','MovieController@create');
+Route::put('movie/{id}','MovieController@update');
+Route::delete('movie/{id}','MovieController@delete');
